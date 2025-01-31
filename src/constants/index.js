@@ -5,7 +5,12 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  gsap,
+framer,
+gearXpert,
+project2,
+project3,
+  
   html,
   css,
   reactjs,
@@ -15,7 +20,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  
   carrent,
   jobit,
   tripguide,
@@ -71,8 +76,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "gsap",
+    icon: gsap,
+  },
+  {
+    name: "framer",
+    icon: framer,
   },
   {
     name: "React JS",
@@ -106,10 +115,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
@@ -118,7 +124,7 @@ const experiences = [
     company_name: "Tekisky",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2025",
+    date: "Jan 2023 - present",
     points: [
       "Developing and maintaining web applications using MERN technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -133,8 +139,8 @@ const testimonials = [
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Mohammad Mustaqeem",
-    designation: "software developer",
-    company: "tekisky",
+    designation: "Ecommerce",
+    company: "QuickMart",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
@@ -157,66 +163,75 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tekisky Mart",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution",
+      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "white-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+ 
     ],
-    image: carrent,
+    image: project2,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "GearXpert",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "emailJs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Gsap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: gearXpert,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "GoGroove-Ecommerce",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "express",
+        color: "white-text-gradient",
+      },
+      {
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "mongodb",
+        color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: project3,
     source_code_link: "https://github.com/",
   },
 ];
