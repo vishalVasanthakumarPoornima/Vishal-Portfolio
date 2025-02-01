@@ -13,7 +13,10 @@ import figma from "./tech/figma.png";
 import gearXpert from './gearXpert.png';
 import project3 from './project3.png';
 import project2 from './proj1.png'
-
+import mysql from './tech/mysql.png';
+import express from './tech/express.png';
+import aws from './tech/aws.png';
+import mui from './tech/mui.png'
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -23,11 +26,9 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import firstTestimonial from './Tars Ken.jpg';
+import secondTestimonial from './image.jpg';
+import thirdTestimonial from './third testimonial.jpg'
 
 export {
   logo,
@@ -42,7 +43,13 @@ export {
   gearXpert,
   project2,
   project3,
-  
+  mysql,
+  express,
+  aws,
+  mui,
+  firstTestimonial,
+  secondTestimonial,
+  thirdTestimonial,
   gsap,
   framer,
   figma,
@@ -55,8 +62,5 @@ export {
   redux,
   tailwind,
   threejs,
-  
-  carrent,
-  jobit,
-  tripguide,
+
 };

@@ -1,37 +1,51 @@
+
 import {
-  
-  mobile,
+  logo,
   backend,
   creator,
+  mobile,
   web,
-  javascript,
-  gsap,
-framer,
-gearXpert,
-project2,
-project3,
-  
-  html,
+  github,
+  menu,
+  close,
   css,
+  gearXpert,
+  project2,
+  project3,
+  mysql,
+  express,
+  aws,
+  mui,
+  
+  gsap,
+  framer,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  
-  carrent,
-  jobit,
-  tripguide,
   threejs,
-} from "../assets";
-import tekisky from '../assets/company/tekisky.png';
+  firstTestimonial,
+  secondTestimonial,
+  thirdTestimonial,
+} from '../assets'
+
+
+// Import Tekisky separately
+import tekisky from "../assets/company/tekisky.png";
+
 
 export const navLinks = [
+
+
   {
     id: "about",
     title: "About",
+    
   },
   {
     id: "work",
@@ -76,6 +90,10 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
     name: "gsap",
     icon: gsap,
   },
@@ -83,9 +101,15 @@ const technologies = [
     name: "framer",
     icon: framer,
   },
+
+ 
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
   {
     name: "Redux Toolkit",
@@ -96,25 +120,35 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Material Ui",
+    icon: mui,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Express Js",
+    icon: express,
+  },
+  {
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySql",
+    icon: mysql,
   },
+
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+ 
 
 ];
 
@@ -138,10 +172,10 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Mohammad Mustaqeem",
+    name: "MD Mustaqeem",
     designation: "Ecommerce",
     company: "QuickMart",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: firstTestimonial,
   },
   {
     testimonial:
@@ -149,15 +183,15 @@ const testimonials = [
     name: "Abdul Raheman",
     designation: "Ecommerce Business",
     company: "justbuyz",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: secondTestimonial,
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "James Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: thirdTestimonial,
   },
 ];
 
