@@ -4,28 +4,26 @@ import { technologies } from "../constants";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
 const Tech = () => {
   useEffect(() => {
-    // Apply GSAP animation when the component mounts
     gsap.fromTo(
       ".tech-icon", 
       {
         opacity: 0,
-        y: 50
+        y: 80
       },
       {
         opacity: 1,
         y: 0,
-        duration: 1,
-        stagger: 0.1, // Stagger each element by 0.1 seconds
+        duration: 2.5,
+        stagger: 0.1, 
         scrollTrigger: {
-          trigger: ".tech-icons-wrapper", // The wrapper element that contains the images
-          start: "top bottom", // Start when the top of the trigger hits the bottom of the viewport
-          end: "bottom top", // End when the bottom of the trigger hits the top of the viewport
-          scrub: true, // Adds scrub effect
+          trigger: ".tech-icons-wrapper", 
+          start: "top 80%", 
+          end: "bottom 70%", 
+          scrub: true, 
         },
       }
     );
