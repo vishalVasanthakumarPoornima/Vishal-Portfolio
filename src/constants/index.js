@@ -77,79 +77,17 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Express Js",
-    icon: express,
-  },
-  {
-    name: "AWS",
-    icon: aws,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "MySql",
-    icon: mysql,
-  },
-
-  {
-    name: "git",
-    icon: git,
-  },
- 
-
+  { name: "Java", icon: backend },
+  { name: "Python", icon: backend },
+  { name: "C++", icon: backend },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "React", icon: reactjs },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "PySpark", icon: mongodb },
+  { name: "SQL", icon: mysql },
+  { name: "Assembly", icon: backend },
 ];
 
 const experiences = [
@@ -171,7 +109,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Vishal proved me wrong.",
     name: "MD Mustaqeem",
     designation: "Ecommerce",
     company: "QuickMart",
@@ -179,7 +117,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
+      "I've never met a web developer who truly cares about their clients' success like Vishal does.",
     name: "Abdul Raheman",
     designation: "Ecommerce Business",
     company: "justbuyz",
@@ -187,7 +125,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Vishal optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "James Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -197,76 +135,171 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
-    description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+    name: "Parking-Garage-Group-7",
+    description: "An application for managing parking garage operations.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
+      { name: "java", color: "blue-text-gradient" },
+      { name: "sql", color: "green-text-gradient" },
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/Parking-Garage-Group-7",
   },
   {
-    name: "GearXpert",
-    description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+    name: "Vacation_Planner_Website",
+    description: "Website to plan and organize travel itineraries.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "white-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/Vacation_Planner_Website",
   },
   {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+    name: "AI-Futures-Hackathon",
+    description: "Hackathon project exploring future AI applications.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      { name: "python", color: "blue-text-gradient" },
+      { name: "ai", color: "green-text-gradient" },
     ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/AI-Futures-Hackathon",
+  },
+  {
+    name: "Plant-Growth-Prediction",
+    description: "Machine learning model to predict plant growth trends.",
+    tags: [
+      { name: "python", color: "blue-text-gradient" },
+      { name: "ml", color: "green-text-gradient" },
+    ],
+    image: project2,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/Plant-Growth-Prediction",
+  },
+  {
+    name: "Taxi-Fare-Prediction",
+    description: "Predicting taxi fares using data science techniques.",
+    tags: [
+      { name: "python", color: "blue-text-gradient" },
+      { name: "pyspark", color: "green-text-gradient" },
+    ],
+    image: gearXpert,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/Taxi-Fare-Prediction",
+  },
+  {
+    name: "Blackjack",
+    description: "Simple blackjack game implemented in Python.",
+    tags: [
+      { name: "python", color: "blue-text-gradient" },
+    ],
+    image: project3,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/Blackjack",
+  },
+  {
+    name: "PythonPOC",
+    description: "Collection of Python proof of concept scripts.",
+    tags: [
+      { name: "python", color: "blue-text-gradient" },
+    ],
+    image: project2,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/PythonPOC",
+  },
+  {
+    name: "trip-dreamscape-planner",
+    description: "Travel planner built with React.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "white-text-gradient" },
+    ],
+    image: gearXpert,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/trip-dreamscape-planner",
+  },
+  {
+    name: "Vishal-Portfolio",
+    description: "Source code for this portfolio website.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "white-text-gradient" },
+    ],
+    image: project3,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/Vishal-Portfolio",
+  },
+  {
+    name: "first-repo",
+    description: "My very first GitHub repository.",
+    tags: [
+      { name: "java", color: "blue-text-gradient" },
+    ],
+    image: project2,
+    source_code_link: "https://github.com/Poornima25m/first-repo",
+  },
+  {
+    name: "Entrepreneurism-Ethics",
+    description: "Coursework exploring entrepreneurial ethics.",
+    tags: [
+      { name: "docs", color: "pink-text-gradient" },
+    ],
+    image: gearXpert,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/Entrepreneurism-Ethics",
+  },
+  {
+    name: "CS230-Entrepreneurial-Project",
+    description: "Entrepreneurial project for CS230 course.",
+    tags: [
+      { name: "java", color: "blue-text-gradient" },
+    ],
+    image: project3,
+    source_code_link:
+      "https://github.com/VD738/CS230-Entrepreneurial-Project",
+  },
+  {
+    name: "Palindrome",
+    description: "Program to check for palindromes.",
+    tags: [
+      { name: "java", color: "blue-text-gradient" },
+    ],
+    image: project2,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/Palindrome",
+  },
+  {
+    name: "GradeCalculator",
+    description: "Tool for calculating course grades.",
+    tags: [
+      { name: "java", color: "blue-text-gradient" },
+    ],
+    image: gearXpert,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/GradeCalculator",
+  },
+  {
+    name: "Calculator",
+    description: "A basic calculator implemented in Java.",
+    tags: [
+      { name: "java", color: "blue-text-gradient" },
+    ],
+    image: project3,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/Calculator",
+  },
+  {
+    name: "BattleShip",
+    description: "Classic battleship game in Java.",
+    tags: [
+      { name: "java", color: "blue-text-gradient" },
+    ],
+    image: project2,
+    source_code_link:
+      "https://github.com/vishalVasanthakumarPoornima/BattleShip",
   },
 ];
 
